@@ -11,11 +11,13 @@
 
 ## 🖼️ 脚本效果图
 ### 1. 数据面板
-![跑步数据看板](https://raw.githubusercontent.com/ZWUTA/fRunning/refs/heads/master/images/data.png)
+![跑步数据看板](https://raw.githubusercontent.com/ZWUTA/fRunning/refs/heads/master/images/data.png) 
+
 *配速可视化｜剩余时间精准预判｜晨跑次数永恒归零の哲学*
 
 ### 2. 设置面板
-![setting.png](https://github.com/ZWUTA/fRunning/blob/master/images/setting.png?raw=true)
+![setting.png](https://github.com/ZWUTA/fRunning/blob/master/images/setting.png?raw=true) 
+
 *暗黑模式/震动频率/声控方案——比教务系统多出500%的人性维度*
 
 ---
