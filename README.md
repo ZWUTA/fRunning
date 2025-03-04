@@ -2,6 +2,8 @@
 
 **本文档采用DeepSeek随意生成**
 
+https://github.com/ZWUTA/fRunning/raw/refs/heads/master/frunning.user.js
+
 ---
 
 ## 🌞 阳光跑の科技自救指南
