@@ -1106,9 +1106,12 @@
             enableAudioButton.style.borderRadius = "5px";
             enableAudioButton.style.cursor = "pointer";
             document.body.appendChild(enableAudioButton);
+            $('.start-btn')[0].style.display = "none";
 
             // 点击Start按钮，恢复音频上下文并开始轮询
             enableAudioButton.addEventListener("click", function () {
+                //const start = document.getElementsByClassName("start-btn")[0];
+                $('.start-btn')[0].click();
                 if (audioCtx.state === "suspended") {
                     audioCtx.resume().then(() => {
                         console.log("AudioContext resumed");
