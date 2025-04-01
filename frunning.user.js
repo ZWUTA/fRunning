@@ -1111,7 +1111,11 @@
             // 点击Start按钮，恢复音频上下文并开始轮询
             enableAudioButton.addEventListener("click", function () {
                 //const start = document.getElementsByClassName("start-btn")[0];
-                $('.start-btn')[0].click();
+                try{
+                    $('.start-btn')[0].click();
+                }catch(e){
+                    console.log(e);
+                }
                 if (audioCtx.state === "suspended") {
                     audioCtx.resume().then(() => {
                         console.log("AudioContext resumed");
